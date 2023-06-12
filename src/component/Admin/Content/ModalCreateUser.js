@@ -26,8 +26,8 @@ const ModalCreateUser = () => {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Add User
+      <Button variant="info" onClick={handleShow}>
+        <FcPlus/>Add User
       </Button>
 
       <Modal show={show} onHide={handleClose} size='xl' backdrop="static" className='modal-add-user'>
